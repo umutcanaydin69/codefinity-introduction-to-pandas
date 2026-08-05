@@ -1,0 +1,11 @@
+import pandas as pd 
+
+
+animals_data = {'animal': ['Cat', 'Dog', 'Parrot', 'Cat', 'Parrot', 'Cat'],
+           'name': ['Dolly', 'Abbey', 'Erin', 'Kelly', 'Taffy', 'Odie']}
+
+
+animals = pd.DataFrame(animals_data)
+
+
+print(animals)
