@@ -1,0 +1,11 @@
+import pandas as pd
+
+even_numbers = [2, 4, 8, 16]
+states  = ['New York', 'California', 'Chicago', 'Alaska']
+
+
+numbers_series = pd.Series(even_numbers)
+states_series = pd.Series(states)
+
+
+print(numbers_series , states_series)
