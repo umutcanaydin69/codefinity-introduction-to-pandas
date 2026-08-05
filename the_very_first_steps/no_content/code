@@ -1,0 +1,9 @@
+import pandas as pd
+
+color_names = ['Red', 'Black', 'Gray', 'Yellow', 'White', 'Green']
+
+
+colors = pd.Series(color_names)
+
+
+print(colors)
